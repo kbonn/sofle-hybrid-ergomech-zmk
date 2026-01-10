@@ -48,7 +48,7 @@ layers:
   - ','
   - .
   - /
-  - {t: DEL, h: RSHFT}
+  - {t: BACKSPACE, h: RSHFT}
   - MUTE
   - LCTRL
   - LALT

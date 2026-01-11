@@ -50,16 +50,16 @@ layers:
   - /
   - {t: BACKSPACE, h: RSHFT}
   - MUTE
-  - LCTRL
-  - LALT
-  - lower
-  - {t: SPACE, h: LEFT GUI}
   - '['
-  - ']'
-  - adjust
+  - LALT
+  - LEFT CONTROL
+  - {t: SPACE, h: LEFT GUI}
+  - lower
   - raise
+  - {t: SPACE, h: BACKSPACE}
+  - RIGHT CONTROL
   - RALT
-  - RGUI
+  - ']'
   - '&mkp LCLK'
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_UP'
@@ -117,9 +117,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -131,6 +131,11 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   raise:
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -138,13 +143,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -185,9 +185,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
@@ -249,9 +249,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
   - {type: held}
+  - {type: held}
+  - ''
   - ''
   - ''
   - ''

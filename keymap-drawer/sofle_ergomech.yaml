@@ -60,11 +60,11 @@ layers:
   - RIGHT CONTROL
   - RALT
   - ']'
-  - '&mkp LCLK'
-  - '&mmv MOVE_RIGHT'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
+  - ENTER
+  - RIGHT ARROW
+  - UP ARROW
+  - LEFT ARROW
+  - DOWN ARROW
   lower:
   - '&studio_unlock'
   - F1

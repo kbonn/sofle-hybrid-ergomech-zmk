@@ -190,11 +190,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ENTER
-  - RIGHT
-  - UP ARROW
-  - LEFT ARROW
-  - DOWN ARROW
+  - {t: ▽, type: trans}
+  - '&msc SCRL_RIGHT'
+  - '&msc SCRL_UP'
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
   adjust:
   - BT CLR
   - {t: BT, h: '0'}
@@ -244,7 +244,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&bootloader'
   - ''
   - ''
   - ''
@@ -255,7 +255,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&bootloader'
   - ''
   - ''
   - ''

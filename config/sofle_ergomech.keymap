@@ -49,7 +49,7 @@
                                                                                       &mkp LCLK  &mmv MOVE_RIGHT      &mmv MOVE_UP       &mmv MOVE_LEFT  &mmv MOVE_DOWN
             >;
 
-            sensor-bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            sensor-bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>, <&inc_dec_kp PG_UP PG_DN>;
         };
 
         num {
@@ -96,7 +96,7 @@
                                                                                 &kp ENTER       &kp RIGHT       &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW
             >;
 
-            sensor-bindings = <&mousescroll>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>, <&inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {

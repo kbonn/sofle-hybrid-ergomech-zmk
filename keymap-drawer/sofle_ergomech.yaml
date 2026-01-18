@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - ''''
-  - ESC
+  - ESCAPE
   - A
   - S
   - D
@@ -48,17 +48,17 @@ layers:
   - ','
   - .
   - /
-  - {t: BACKSPACE, h: RSHFT}
+  - RSHFT
   - MUTE
   - '['
-  - LALT
   - LEFT CONTROL
+  - LEFT ALT
   - {t: SPACE, h: LEFT GUI}
   - lower
+  - SPACE
   - raise
-  - {t: SPACE, h: BACKSPACE}
-  - RIGHT CONTROL
-  - RALT
+  - BACKSPACE
+  - {t: adjust, h: toggle}
   - ']'
   - '&mkp LCLK'
   - '&mmv MOVE_RIGHT'
@@ -185,8 +185,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -250,8 +250,8 @@ layers:
   - ''
   - ''
   - {type: held}
-  - {type: held}
   - ''
+  - {type: held}
   - ''
   - ''
   - ''

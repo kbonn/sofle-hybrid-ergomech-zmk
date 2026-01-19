@@ -122,8 +122,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
+  - Ctl+RIGHT ARROW
   - {t: ▽, type: trans}
   - '&mkp RCLK'
   - RIGHT ARROW
@@ -187,8 +187,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Ctl+RIGHT
   - {t: ▽, type: trans}
   - '&bootloader'
   - '&msc SCRL_RIGHT'

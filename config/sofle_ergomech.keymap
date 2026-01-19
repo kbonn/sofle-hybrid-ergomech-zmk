@@ -77,12 +77,12 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&studio_unlock  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans     &kp N7           &kp N8        &kp N9          &trans          &trans
-&trans          &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans     &kp N4           &kp N5        &kp N6          &kp KP_PLUS     &kp KP_MULTIPLY
-&trans          &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans     &kp N1           &kp N2        &kp N3          &kp KP_MINUS    &kp KP_DIVIDE
-&trans          &trans  &trans   &trans   &trans   &trans  &trans     &kp N0           &kp PERIOD    &kp COMMA       &kp KP_EQUAL    &trans
-&bootloader     &trans  &trans   &trans   &trans   &trans  &trans     &trans           &trans        &trans          &trans
-                                                           &mkp RCLK  &kp RIGHT_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW
+&studio_unlock  &kp F1  &kp F2   &kp F3   &kp F4   &trans  &trans     &kp N7           &kp N8              &kp N9               &trans          &trans
+&trans          &kp F5  &kp F6   &kp F7   &kp F8   &trans  &trans     &kp N4           &kp N5              &kp N6               &kp KP_PLUS     &kp KP_MULTIPLY
+&trans          &kp F9  &kp F10  &kp F11  &kp F12  &trans  &trans     &kp N1           &kp N2              &kp N3               &kp KP_MINUS    &kp KP_DIVIDE
+&trans          &trans  &trans   &trans   &trans   &trans  &trans     &kp N0           &kp PERIOD          &kp COMMA            &kp KP_EQUAL    &trans
+&bootloader     &trans  &trans   &trans   &trans   &trans  &trans     &trans           &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &trans
+                                                           &mkp RCLK  &kp RIGHT_ARROW  &kp UP_ARROW        &kp LEFT_ARROW       &kp DOWN_ARROW
             >;
 
             sensor-bindings =
@@ -105,7 +105,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT       &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans          &kp BACKSPACE
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &kp LC(LEFT)  &kp LC(RIGHT)   &trans
                                                 &bootloader     &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_LEFT  &msc SCRL_DOWN
             >;
 

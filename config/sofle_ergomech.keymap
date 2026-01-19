@@ -85,7 +85,9 @@
                                                            &mkp RCLK  &kp RIGHT_ARROW  &kp UP_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&mousescroll SCRL_UP SCRL_DOWN>,
+                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         arrow {
@@ -102,7 +104,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp UP_ARROW  &kp RIGHT       &trans          &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans          &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans          &kp BACKSPACE
 &trans  &trans  &trans  &trans  &trans  &trans  &trans          &trans           &trans        &trans          &trans
                                                 &bootloader     &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_LEFT  &msc SCRL_DOWN
             >;

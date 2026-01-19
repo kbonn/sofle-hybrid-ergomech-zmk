@@ -108,7 +108,7 @@
                                                 &bootloader     &msc SCRL_RIGHT  &msc SCRL_UP  &msc SCRL_LEFT  &msc SCRL_DOWN
             >;
 
-            sensor-bindings = <&mousescroll>, <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&mousescroll &inc_dec_kp PG_UP PG_DN>;
         };
 
         adjust_layer {
